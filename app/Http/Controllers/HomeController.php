@@ -8,6 +8,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-        return view('pages.home');  // Renders the home.blade.php view
+        //$message = 'Hello, World!';
+        return view('pages.home');  // Pass data to the view
     }
 }

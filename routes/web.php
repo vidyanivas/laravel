@@ -1,5 +1,7 @@
 <?php
+use App\Http\Controllers\HomeController;
 
+Route::get('/', [HomeController::class, 'index'])->name('root');
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -10,8 +12,9 @@
 | to using a Closure or controller method. Build something great!
 |
 */
-use App\Http\Controllers\HomeController;
-Route::get('/', [HomeController::class, 'index']);
+
+//Route::get('/', [HomeController::class, 'index']);
+//Route::get('/', ['as' => 'root', 'uses' => 'HomeController@index']);
 //Route::get('/', ['as' => 'root', 'uses' => 'PageController@getIndex']);
 // Route::get('a/{aSlug}', ['as' => 'article', 'uses' => 'PageController@getArticle']);
 // Route::get('p/{pSlug}', ['as' => 'page', 'uses' => 'PageController@getPage']);
