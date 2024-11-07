@@ -8,7 +8,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-        //$message = 'Hello, World!';
-        return view('pages.home');  // Pass data to the view
+        $data = ['message' => 'Hello, Chandan G'];
+        return view('pages.home', $data);   // Pass data to the view
     }
 }
