@@ -104,8 +104,8 @@
 
 <!-- JS here -->
 <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-<script src="{{ asset('assets/js/vendor/jquery.js') }}"></script>
-<script src="{{ asset('assets/js/vendor/waypoints.js') }}"></script>
+<script src="{{ asset('assets/js/jquery.js') }}"></script>
+<script src="{{ asset('assets/js/waypoints.js') }}"></script>
 <script src="{{ asset('assets/js/bootstrap-bundle.js') }}"></script>
 <script src="{{ asset('assets/js/meanmenu.js') }}"></script>
 <script src="{{ asset('assets/js/swiper-bundle.js') }}"></script>
