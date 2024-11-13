@@ -126,187 +126,27 @@
                 <div class="col-xxl-6 col-xl-7 d-none d-xl-block">
                     <div class="tp-main-menu-2-area d-flex align-items-center">
                         <div class="tp-main-menu">
-                            <nav id="tp-mobile-menu">
-                            
-                            <ul>
-                                <li><a href="index.php">Home</a></li>
-                                <li class="has-dropdown">
-                                <a href="about-us.php">About</a>
-                                    <ul class="submenu">
-                                        <li><a href="#"> Company Overview </a></li>
-                                        <li><a href="#"> Industries Exposure </a></li>
-                                        <li><a href="#"> Career </a></li>
-                                        <li><a href="#"> News & Events </a></li>
-                                        <li><a href="blog.php">Blog</a></li>
-                                    </ul>
-                                </li>
-                                <li class="has-dropdown">
-                                    <a href="service.php">Services</a>										   
-                                    <ul class="submenu mega-submenu">
-                                        <li class="mega-menu-content">
-                                            <div class="row">
-                                            <div class="col-lg-4 sepration">
-                                                <ul>
-                                                <li class="mega-menu-title"><p>Enterprise Software Services</p></li>
-                                                <li><a href="#"> Digital Engineering </a></li>
-                                                <li><a href="#"> Enterprise Architecture </a></li>
-                                                <li><a href="#"> Cloud Applications Development </a></li>
-                                                <li><a href="#"> Software Development </a></li>
-                                                <li><a href="#"> Web Applications </a></li>
-                                                <li><a href="#"> Mobile Applications </a></li>
-                                                </ul>
-                                            </div>
-                                                <div class="col-lg-4 sepration">
-                                                <ul>
-                                                <li class="mega-menu-title"><span class=" icon"></span><p>Digital Transformation</p></li>
-                                                <li><a href="#"> Data Analytics </a></li>
-                                                <li><a href="#"> Blockchain & IoT </a></li>
-                                                <li><a href="#"> Power BI </a></li>
-                                                <li><a href="#"> Process Automation </a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-lg-4">
-                                                <ul>
-                                                <li class="mega-menu-title"><span class=" icon"></span><p>ERP Solutions</p></li>
-                                                <li><a href="#"> Financial ERP </a></li>
-                                                <li><a href="#"> Manufacturing ERP </a></li>
-                                                <li><a href="#"> Retail ERP </a></li>
-                                                <li><a href="#"> Healthcare ERP </a></li>
-                                                <li><a href="#"> School/College ERP </a></li>													   
-                                                <li><a href="#"> Hybrid ERP </a></li>
-                                                </ul>
-                                            </div>																									
-                                            </div>
-                                            <br>
-                                        <div class="row">
-                                            <div class="col-lg-4 sepration">
-                                                <ul>
-                                                    <li class="mega-menu-title"><span class=" icon"></span><p> E-Governance Solutions </p></li>
-                                                    <li><a href="#"> E-Governance Platforms Development </a></li>
-                                                    <li><a href="#"> Single Window Solution & Dashboards </a></li>													  
-                                                </ul>
-                                            </div>
-                                                
-                                            <div class="col-lg-4 sepration">
-                                                <ul>
-                                                <li class="mega-menu-title"><span class=" icon"></span><p>CRM</p></li>
-                                                <li><a href="#"> Salesforce Solutions </a></li>
-                                                <li><a href="#"> Salesforce Services </a></li>
-                                                <li><a href="#"> Salesforce Practices </a></li>
-                                                <li><a href="#"> Salesforce Accelerators </a></li>
-                                                </ul>
-                                            </div>
-                                                <div class="col-lg-4">
-                                                <ul>
-                                                <li class="mega-menu-title"><span class=" icon"></span><p>Degital Marketing</p></li>
-                                                    <li><a href="#"> SEO Services </a></li>
-                                                    <li><a href="#"> SMM/SMO Service </a></li>
-                                                    <li><a href="#"> PPC(Pay Per Click) Service </a></li>
-                                                    <li><a href="#"> Reputation Management </a></li>														 
-                                                </ul>
-                                            </div>	
-                                            
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="has-dropdown">
-                                    <a href="#">Technologies</a>
-                                    <!--<ul class="submenu">
-                                        <li><a href="about-us.html">Microsoft</a></li>
-                                        <li><a href="portfolio.html">PHP</a></li>
-                                        <li><a href="portfolio-details.html">Java</a></li>
-                                        <li><a href="team.html">AWS</a></li>
-                                        <li><a href="team-details.html">Devops</a></li>
-                                        <li><a href="team-details.html">Oracle / SQL</a></li>
-                                        <li><a href="team-details.html">Android / Ios</a></li>
-                                        <li><a href="team-details.html">Python</a></li>
-                                    </ul>-->
-                                    <ul class="submenu mega-submenu">
-                                        <li class="mega-menu-content">
-                                        <div class="row">
-                                            <div class="col-lg-2 sepration">
-                                                <ul>
-                                                <li class="mega-menu-title"><p>Open Source</p></li>
-                                                <li><a href="#"> PHP </a></li>
-                                                <li><a href="#"> Laravel </a></li>
-                                                <li><a href="#"> Magento </a></li>
-                                                <li><a href="#"> WordPress </a></li>
-                                                <li><a href="#"> Dropal </a></li>
-                                                <li><a href="#"> CodeIgniter </a></li>
-                                                <li><a href="#"> Zend Framework </a></li>
-                                                <li><a href="#"> Symfony </a></li>
-                                                <li><a href="#"> Node </a></li>
-                                                <li><a href="#"> MySQL </a></li>
-                                                <li><a href="#"> PostgreSQL </a></li>													  
-                                                </ul>
-                                            </div>
-                                            <div class="col-lg-2 sepration">
-                                                <ul>
-                                                <li class="mega-menu-title"><p>Front-End</p></li>
-                                                <li><a href="#"> HTML5 </a></li>
-                                                <li><a href="#"> Angular </a></li>
-                                                <li><a href="#"> React </a></li>
-                                                <li><a href="#"> Vue.js </a></li>
-                                                <li><a href="#"> jQuery </a></li>
-                                                <li><a href="#"> Svelte </a></li>
-                                                <li><a href="#"> Next.js </a></li>
-                                                <li><a href="#"> TypeScript </a></li>
-                                                <li><a href="#"> Bootstrap </a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-lg-2 sepration">
-                                                <ul>
-                                                <li class="mega-menu-title"><p>Mobile</p></li>
-                                                <li><a href="#"> Android </a></li>
-                                                <li><a href="#"> Ios </a></li>
-                                                <li><a href="#"> Flutter </a></li>
-                                                <li><a href="#"> Xamarin </a></li>
-                                                <li><a href="#"> React Native </a></li>
-                                                <li><a href="#"> Swift </a></li>
-                                                <li><a href="#"> Ionic </a></li>
-                                                <li><a href="#"> Kotlin </a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-lg-2 sepration">
-                                                <ul>
-                                                <li class="mega-menu-title"><p>Microsoft</p></li>
-                                                <li><a href="#"> .Net Framework </a></li>
-                                                <li><a href="#"> .Net MVC </a></li>
-                                                <li><a href="#"> .Net Core </a></li>
-                                                <li><a href="#"> Azure </a></li>
-                                                <li><a href="#"> DevOps </a></li>
-                                                <li><a href="#"> SQL Server </a></li>
-                                                <li><a href="#"> Microsoft Dynamic 365 </a></li>
-                                                </ul>
-                                            </div>
-                                                <div class="col-lg-2 sepration">
-                                                <ul>
-                                                <li class="mega-menu-title"><p>Java</p></li>
-                                                <li><a href="#"> Spring </a></li>
-                                                <li><a href="#"> Spring Boot </a></li>
-                                                <li><a href="#"> Struts </a></li>
-                                                <li><a href="#"> Hibernati </a></li>
-                                                <li><a href="#"> Grails </a></li>
-                                                </ul>
-                                            </div>													
-                                            <div class="col-lg-2">
-                                                <ul>
-                                                <li class="mega-menu-title"><p>Ecommerce</p></li>
-                                                <li><a href="#"> Magento  </a></li>
-                                                <li><a href="#"> Woocommerce </a></li>
-                                                <li><a href="#"> Shopify </a></li>
-                                                <li><a href="#"> PrestaShop </a></li>													  
-                                                </ul>
-                                            </div>
-                                            </div>
-                                    </li>
-                                    </ul>	 
-                                </li>
-                                <li><a href="portfolio.php">Portfolio</a></li> 
-                                <!--<li><a href="blog.html">Blog</a></li>-->									   
-                                <li><a href="contact.php">Contact</a></li>
-                            </ul>
+                            <nav id="tp-mobile-menu">                            
+								<ul>									
+									@foreach (getMenu() as $p)
+                                        @if ($p->children->count() > 0)
+										<li class="has-dropdown">
+										    <a class="navbar-item {{ active($p) }}" href="{{ $p->link }}">{{ $p->title }} </a>
+											<ul class="submenu">
+											    @foreach ($p->children as $child)
+												<li>
+													<a class="navbar-item {{ active($child) }}" href="{{ $child->link }}">
+														{{ $child->title }}
+													</a>
+												</li>
+												@endforeach
+											</ul>
+										</li>
+									@else
+									<li> <a class="navbar-item" href="{{ $p->link }}">{{ $p->title }}</a> </li>		
+									@endif
+								    @endforeach
+								</ul>
                             </nav>
                         </div>
                     </div>

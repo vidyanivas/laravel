@@ -39,11 +39,9 @@
                   <h3 class="tp-footer-widget-title">Quick Links</h3>
                   <div class="tp-footer-widget-content">
                      <ul>
-                        <li><a href="#">SEO/SMO Service</a></li>
-                        <li><a href="#">Web Design And Develoment</a></li>
-                        <li><a href="#">Mobile App</a></li>
-                        <li><a href="#">Web Hosting</a></li>
-                        <li><a href="#">Testing</a></li>
+					    @foreach (getFooterArticles() as $article)
+                        <li><a href="{{ $article->link }}">{{ $article->title }}</a></li>
+                        @endforeach
                      </ul>
                   </div>
                </div> 
@@ -77,12 +75,9 @@
             <div class="col-lg-8 col-md-10">
                <div class="tp-footer-2-menu">
                   <ul>
-                     <li><a href="index.php">Home</a></li>
-                     <li><a href="about-us.php">About</a></li>
-                     <li><a href="service.php">services</a></li>
-                     <li><a href="#">Resources</a></li>
-                     <!--<li><a href="#">Shop</a></li>-->
-                     <li><a href="contact.php">contact</a></li>
+				    @foreach (getMenu() as $p)
+					<li> <a class="navbar-item-footer" href="{{ $p->link }}">{{ $p->title }}</a> </li>		
+					@endforeach
                   </ul>
                </div>
             </div>
