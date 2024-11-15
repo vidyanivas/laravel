@@ -1,14 +1,3 @@
-<link rel="stylesheet" href="{{ asset('assets/css/custom.css') }}">
-<link rel="stylesheet" href="{{ asset('assets/css/bootstrap.css') }}">
-<link rel="stylesheet" href="{{ asset('assets/css/animate.css') }}">
-<link rel="stylesheet" href="{{ asset('assets/css/swiper-bundle.css') }}">
-<link rel="stylesheet" href="{{ asset('assets/css/splide.css') }}">
-<link rel="stylesheet" href="{{ asset('assets/css/nouislider.css') }}">
-<link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.css') }}">
-<link rel="stylesheet" href="{{ asset('assets/css/font-awesome-pro.css') }}">
-<link rel="stylesheet" href="{{ asset('assets/css/spacing.css') }}">
-<link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
-<link rel="stylesheet" href="{{ asset('assets/css/custom.css') }}">
 
 <!-- pre loader area start -->
 <div id="loading">

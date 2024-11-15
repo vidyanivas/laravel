@@ -11,6 +11,7 @@
 */
 
 //Route::get('/', [HomeController::class, 'index']);
+//Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/', ['as' => 'root', 'uses' => 'HomeController@index']);
 Route::get('/', ['as' => 'root', 'uses' => 'PageController@getIndex']);
 Route::get('a/{aSlug}', ['as' => 'article', 'uses' => 'PageController@getArticle']);

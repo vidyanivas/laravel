@@ -1,4 +1,5 @@
 <?php
+// app/Http/Controllers/HomeController.php
 
 namespace App\Http\Controllers;
 
@@ -6,9 +7,8 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    public function index()
+    public function home()
     {
-        $data = ['message' => 'Hello, Chandan G'];
-        return view('pages.home', $data);   // Pass data to the view
+        return view('admin.home'); // Make sure the path to the view is correct
     }
 }

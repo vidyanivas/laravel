@@ -1,4 +1,4 @@
-<section class="section">
+<!-- <section class="section">
     <div class="container">
         <div class="columns">
             <div class="column is-offset-2 is-8">
@@ -9,4 +9,5 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
+<div class="content">{!! $content !!}</div>
